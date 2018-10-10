@@ -10,11 +10,11 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
 
-  <title>Topページ</title>
+  <title>優先経路情報</title>
 </head>
 
 <body>
-  <h1>Topページ</h1>
+  <h1>優先経路情報</h1>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -24,23 +24,36 @@
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
-  <br>PC<br>
-  <a href="stock_empty.html">在庫一覧(空白)</a><br>
-  <a href="stock.html">在庫一覧</a><br>
-  <a href="put_into_stock.html">入荷一覧</a><br>
-  <a href="install.html">設置一覧</a><br>
-  <a href="service.html">定期サービス実施</a><br>
-  <a href="service_life_search_condition.html">耐用年数(検索条件入力)</a><br>
-  <a href="service_life_search.html">耐用年数(検索結果)</a><br>
-  <a href="service_life.html">耐用年数</a><br>
-  <a href="preferred_route_input.html">優先経路（入力）</a><br>
-  <a href="preferred_route.html">優先経路</a><br>
-  <a href="action_search_condition.html">行動管理（検索条件入力）</a><br>
-  <a href="action.html">行動管理</a><br><br>
-  <br>スマートフォン<br>
-  <a href="workout.html">作業完了ボタン</a><br>
-  <a href="workerror.html">作業エラーボタン</a><br>
-  <a href="workon.html">設置開始</a><br>
+
+  <table class="table table-bordered">
+    <thead>
+      <tr class="table-primary">
+        <th scope="col">ICタグNo.</th>
+        <th scope="col">機材名</th>
+        <th scope="col">得意先No.</th>
+        <th scope="col">得意先名</th>
+        <th scope="col">フロア</th>
+        <th scope="col">場所</th>
+        <th scope="col">取付ID</th>
+        <th scope="col">現優先経路順</th>
+        <th scope="col">担当者</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1234567</td>
+        <td>Seat.C</td>
+        <td>255870</td>
+        <td>東京スカイツリー</td>
+        <td>50F</td>
+        <td>男子</td>
+        <td>2558700640001</td>
+        <td><input type="text"></td>
+        <td>川谷内</td>
+      </tr>
+    </tbody>
+  </table>
+
 </body>
 
 </html>

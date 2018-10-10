@@ -10,12 +10,11 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
 
-  <title>Topページ</title>
+  <title>行動管理検索
+  </title>
 </head>
 
 <body>
-  <h1>Topページ</h1>
-
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -23,24 +22,40 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
-  <br>PC<br>
-  <a href="stock_empty.html">在庫一覧(空白)</a><br>
-  <a href="stock.html">在庫一覧</a><br>
-  <a href="put_into_stock.html">入荷一覧</a><br>
-  <a href="install.html">設置一覧</a><br>
-  <a href="service.html">定期サービス実施</a><br>
-  <a href="service_life_search_condition.html">耐用年数(検索条件入力)</a><br>
-  <a href="service_life_search.html">耐用年数(検索結果)</a><br>
-  <a href="service_life.html">耐用年数</a><br>
-  <a href="preferred_route_input.html">優先経路（入力）</a><br>
-  <a href="preferred_route.html">優先経路</a><br>
-  <a href="action_search_condition.html">行動管理（検索条件入力）</a><br>
-  <a href="action.html">行動管理</a><br><br>
-  <br>スマートフォン<br>
-  <a href="workout.html">作業完了ボタン</a><br>
-  <a href="workerror.html">作業エラーボタン</a><br>
-  <a href="workon.html">設置開始</a><br>
+    crossorigin="anonymous"></script><br>
+  <div class="container">
+    <h1>行動管理検索</h1><br>
+    得意先名：
+    <select>
+      <option>-</option>
+      <option>AAAAAA商事</option>
+      <option>BBBBBB商事</option>
+      <option>CCCCCC商事</option>
+      <option>DDDDDD商事</option>
+      <option>EEEEEE商事</option>
+      <option>FFFFFF商事</option>
+    </select>　　
+    機器：
+    <select>
+      <option>-</option>
+      <option>Seat.A</option>
+      <option>Seat.B</option>
+      <option>Seat.C</option>
+      <option>Seat.D</option>
+      <option>Seat.E</option>
+      <option>Seat.F</option>
+    </select>　　
+    担当者名：
+    <select>
+      <option>-</option>
+      <option>川谷内　康明</option>
+      <option>XXX　XXX</option>
+      <option>ZZZ　ZZZ</option>
+    </select><br><br>
+    <button type="button" class="btn btn-primary btn-lg">
+      検索
+    </button>
+  </div>
 </body>
 
 </html>
